@@ -62,13 +62,36 @@ crop-rotation-gis/
 ├── README.md
 ├── requirements.txt
 │
-├── data/
-│   ├── sample_fields.geojson   # пример данных
-│   └── .gitkeep                # чтобы папка осталась в git
+├── data/                       # данные проекта
+│   ├── field_yields.csv
+│   ├── fields.png
+│   ├── ndvi_2022.tif
+│   ├── sample_fields.cpg
+│   ├── sample_fields.dbf
+│   ├── sample_fields.geojson
+│   ├── sample_fields.prj
+│   ├── sample_fields.shp
+│   ├── sample_fields.shx
+│   └── soil_tests.csv
 │
-└── src/
-    ├── __init__.py
-    └── main.py                 # основной скрипт анализа
+├── notebook/                   # jupyter-ноутбуки
+│   └── rotation_analysis.ipynb
+│
+├── scripts/                    # вспомогательные скрипты
+│   ├── generate_sample_data.py
+│   └── setup.sh
+│
+├── src/                        # исходный код
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── main.py
+│   ├── rotation_planner.py
+│   └── visualization.py
+│
+└── tests/                      # тесты
+    ├── runner.sh
+    └── test_rotation_planner.py
+
 ```
 
 ---
