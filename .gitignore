@@ -1,0 +1,25 @@
+# виртуальное окружение
+.venv/
+venv/
+
+# кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# логи и отчёты
+*.log
+
+# тестовые артефакты
+.coverage
+pytest_cache/
+
+# IDE и редакторы
+.vscode/
+.idea/
+
+# прочее
+*.egg-info/
+build/
+dist/

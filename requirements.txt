@@ -1,0 +1,9 @@
+geopandas>=0.13
+pandas
+shapely
+matplotlib
+fiona
+pyproj
+click
+pytest
+rasterio
