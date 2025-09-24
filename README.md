@@ -31,7 +31,7 @@
 
 ### 1. Клонируй проект
 ```bash
-git clone <repo_url>
+git clone <https://github.com/limonORG02/crop-rotation-gis.git>
 cd crop-rotation-gis
 ```
 
